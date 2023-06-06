@@ -1,0 +1,21 @@
+#Home {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #212426;
+}
+
+.movies {
+    margin: 1rem;
+    width: 260px;
+    height: 320px;
+}
+
+.movieimg {
+    width: 240px;
+    height: 300px;
+}
+
+.home-tittle {
+    color: #fff;
+	font-size: 1rem;
+}
