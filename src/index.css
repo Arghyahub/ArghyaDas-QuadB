@@ -1,0 +1,40 @@
+html , body ,#root {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flrow {
+    display: flex;
+    flex-direction: row;
+}
+.flcol {
+    display: flex;
+    flex-direction: col;
+}
+
+.jcen {
+    justify-content: center;
+}
+.acen {
+    align-items: center;
+}
+.tcen {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid red;
+}
+.curpoi {
+    cursor: pointer;
+}
+
+.h100 {
+    height: 100%;
+}
+.w100 {
+    width: 100%;
+}
