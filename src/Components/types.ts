@@ -76,3 +76,4 @@ export interface movie{
     show: Show;
 }
   
+export type bought = boolean | null;

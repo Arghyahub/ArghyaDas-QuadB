@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter , Routes , Route , Link } from 'react-router-dom'
 
-import Home from './Components/Home'
-import Movie from './Components/Movie'
+import Home from './Components/home/Home'
+import Movie from './Components/movie/Movie'
 
 function App() {
 

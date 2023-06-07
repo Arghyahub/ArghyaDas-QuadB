@@ -2,6 +2,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #212426;
+    min-height: calc(100vh - 48px);
 }
 
 .movies {

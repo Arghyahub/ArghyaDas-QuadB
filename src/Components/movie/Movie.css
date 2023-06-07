@@ -1,0 +1,116 @@
+#Movie {
+    background-color: #212426;
+    /* position: relative; */
+}
+.bgimg {
+    max-height: 600px;
+}
+
+.bgdiv {
+    background-color: rgba(29, 29, 29, 0.907);
+}
+
+.movie-name {
+    margin: 2rem 0 1rem 0;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.summ {
+    margin: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.other {
+    margin: 1rem;
+    color: #fff;
+}
+
+.wcolor {
+    color: #fff;
+}
+
+.buy {
+    position: fixed;
+    top: 92%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+    background-color: #9336B4;
+}
+
+.movie-form {
+    background-color: #fff;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.form-div {
+    padding-bottom: 2rem;
+}
+
+.inner-form {
+    width: 80%;
+    position: relative;
+}
+
+.ip {
+    position: absolute;
+    right: 60px;
+}
+
+.buy-btn {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #9336B4;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    max-width: 350px;
+    z-index: 8;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+}
+
+.rem {
+    right: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 92, 92);
+}
+
+.cancel-btn {
+    border: none;
+    outline: none;
+    background-color: #E76161;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-weight: 700;
+}
