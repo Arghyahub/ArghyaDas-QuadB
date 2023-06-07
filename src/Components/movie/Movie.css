@@ -6,6 +6,13 @@
     max-height: 600px;
 }
 
+@media screen and (max-width: 400px) {
+    .bgimg {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
 .bgdiv {
     background-color: rgba(29, 29, 29, 0.907);
 }
@@ -83,6 +90,25 @@
     transform : translate(-50%,-50%);
     max-width: 350px;
     z-index: 8;
+}
+@media screen and (max-width: 700px) {
+    .inner-form {
+        width: 95%;
+    }
+    .ip {
+        width: 50%;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .movie-form {
+        width: 70%;
+    }
+    .ip {
+        width: 50%;
+        right: 30px;
+    }
 }
 
 .overlay {
