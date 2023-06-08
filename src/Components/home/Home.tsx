@@ -11,7 +11,6 @@ const Home = () => {
       try {
         const data:Response = await fetch("https://api.tvmaze.com/search/shows?q=all#") ;
         const json:ApiResponse = await data.json() ;
-        console.log(json) ;
         setData(json) ;
       }
       catch(err) {

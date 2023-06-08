@@ -41,6 +41,9 @@ const Movie = () => {
     }
 
     fetchData() ;
+  },)
+
+  useEffect(() => {
     if (Data){
       const bought = localStorage.getItem(`${Data.show.id}`) as string ;
       if (bought === 'true'){
@@ -48,7 +51,8 @@ const Movie = () => {
         setbuyMsg("Successfully bought") ;
       }
     }
-  },[])
+  }, [Data])
+  
 
   const buyTicket = (e:React.FormEvent<HTMLFormElement>):void => {
     e.preventDefault();
@@ -98,9 +102,11 @@ const Movie = () => {
 
               <div className="other">
                 <table>
-                  <tr><td>Type : </td>{Data.show.type}</tr>
-                  <tr><td>Language : </td> <td>{Data.show.language}</td></tr>
-                  <tr><td>Genre : </td> {Data.show.genres.map((elem:string) => (<td>{elem}</td>))}</tr>
+                  <tbody>
+                    <tr><td>Type :</td><td>{Data.show.type}</td></tr>
+                    <tr><td>Language :</td><td>{Data.show.language}</td></tr>
+                    <tr><td>Genre : </td>{Data.show.genres.map((elem:string ,ind:number) => (<td key={ind}>{elem}</td>))}</tr>
+                  </tbody>
                 </table>
       
               </div>
